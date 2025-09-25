@@ -22,7 +22,7 @@ export default function ProductPage() {
 
   return (
     <>
-    <div className="flex gap-10 h-[60vh] items-center bg-gray-300 px-5 rounded-4xl">
+    <div className="flex gap-10 h-[60vh] items-center bg-gray-300 px-5 ">
     <div className="h-70 w-80 bg-white flex items-center justify-center rounded-md mb-4 p-5 transition-all duration-300 hover:p-4">
         {/* 
           If the image is not loading:
