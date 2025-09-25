@@ -8,7 +8,7 @@ function Navbar() {
 //   console.log(cart.length);
   return (
     <nav className="bg-blue-600 text-white px-6 py-4 flex items-center justify-between">
-      <h1 className="text-xl font-bold">ElectroShop</h1>
+     <Link to="/"> <h1 className="text-xl font-bold">ElectroShop</h1></Link>
       <div className="flex gap-6">
         <Link to="/" className="flex items-center gap-2 hover:text-gray-200"><FaHome /> Home</Link>
         <Link to="/shop" className="flex items-center gap-2 hover:text-gray-200"><FaStore /> Shop</Link>
